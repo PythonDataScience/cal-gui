@@ -11,6 +11,7 @@ def cal(year,month):
 
         r = 0
         for c in range(7):
+             # font: (family, size, style)
              label = tk.Label(master = root, text = daynames[c], font = ('',30,''), padx = 10, relief = tk.RAISED)
              label.grid(row = r, column = c)
 
